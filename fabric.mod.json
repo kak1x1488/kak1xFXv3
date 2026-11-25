@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kak1xfx",
+  "version": "${version}",
+  "name": "kak1xFX",
+  "description": "Kill effects с меню и превью на твоём скине. /kak1xFX menu",
+  "authors": ["kak1x"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.kak1x.fx.Kak1xFX"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
